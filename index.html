@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV300 CNC Diagnostic Manual</title>
+    <script defer src="renderer.js"></script>
+</head>
+<body>
+    <h1>SV300 CNC Diagnostic Manual</h1>
+    
+    <input type="text" id="searchBox" placeholder="Search by Alarm Number or Description">
+    <button onclick="searchAlarms()">Search</button>
+    
+    <div id="results"></div>
+
+    <h2>Add New Alarm</h2>
+    <input type="text" id="alarmNumber" placeholder="Alarm Number">
+    <input type="text" id="description" placeholder="Description">
+    <textarea id="details" placeholder="Details"></textarea>
+    <button onclick="addAlarm()">Add Alarm</button>
+</body>
+</html>

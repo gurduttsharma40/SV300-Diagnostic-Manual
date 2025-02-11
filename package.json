@@ -1,0 +1,19 @@
+{
+  "name": "sv300-diagnostic-manual",
+  "version": "1.0.0",
+  "description": "v",
+  "main": "main.js",
+  "scripts": {
+  "start": "electron --disable-gpu --disable-software-rasterizer ."
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.1.1"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
